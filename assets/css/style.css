@@ -8,7 +8,8 @@
 
 body{
     
-    background-image: url(/assets/img/space.jpg);
+
+    background-image: linear-gradient(#708090, #A0A0A0);
     display: flex;
     justify-content: center;
     align-items: center;
