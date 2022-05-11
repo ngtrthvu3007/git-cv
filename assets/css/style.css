@@ -107,67 +107,86 @@ body{
     padding-left: 5px;
 }
 
-/*edu content*/
+/* Skills*/
 
-
-.left_content_edu .edu_title{
-    text-align: center;
-    padding-bottom: 5px;
+.skills{
+    display: flex;
 }
-.left_content_edu .edu_content{
-    padding-left: 40px;
+
+.skills_items{
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    flex-direction: column;
+    list-style-position: inside;
+    
+}
+.skill_title{
+   display: block;
+   text-align: center;
+   margin-top: 10px;
+   
+   
+    
+}
+.skills_para {
+    text-align: left;
+    padding-top: 10px;
+    margin-right: 20px;
     
 }
 
-
-.edu_university{
-    margin-bottom: 10px;
-}
-
-.edu_f8{
-    margin-bottom: 10px;
-}
-
-
-.time{
-    padding-bottom: 5px;
-    color: #191970;
+.skills_tech{
+   padding-bottom: 10px;
+    line-height: 1.5;
     font-size: 17px;
-    font-weight: 600;
 }
+.skills_soft{
+    line-height: 1.5;
+    font-size: 17px;
+}
+
 
 /* certiification*/
 .left_content_certifi{
-    margin-top: 7px;
+    margin-top: 10px;
 }
 
 .certifi_title{
     text-align: center;
+    padding-bottom: 10px;
     
 }
 
 .certifi_content{
     display: flex;
+    text-align: left;
+    
 
 }
 
-.certifi_f8{
-    padding-left: 40px;
-    padding-bottom: 7px;
-    line-height: 1.3 ;
-}
-
-.certifi_codelearn{
-    padding-left: 40px;
-    line-height: 1.3;
-    margin-bottom: 10px;
-}
 .certifi_bold{
-    color: #191970;
+    padding-left: 25px;
     font-size: 17px;
     font-weight: 600;
     
+} 
+.certifi_f8_text{
+    line-height: 1.6;
+    margin-top: 5px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    
 }
+
+.certifi_codelearn_text{
+    padding-left: 40px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    padding-right: 5px;
+}
+
 
 /* right side*/
 .right{
@@ -215,41 +234,60 @@ body{
     
 }
 
+/*edu content*/
 
-/* Skills*/
 
-.skills{
-    display: flex;
-    
-    margin-top: 20px;
-}
-
-.skills_items{
+.left_content_edu .edu_title{
     text-align: left;
-    padding-left: 20px;
-    list-style-position: inside;
-    line-height: 1.3;
-
-}
-.skill_title{
-   padding-left: 60px;
-   display: block;
-   padding-bottom: 3px;
-   
-   
+    padding-bottom: 5px;
+    padding-left: 80px;
+    margin-top: 20px;
+} 
+.edu_content{
+    padding-left: 40px;
     
 }
-.skills_para {
-    display: flex;
-    padding-top: 10px;
+
+
+.edu_university{
+    margin-bottom: 10px;
 }
 
-.skills_tech{
-    margin-left: 20px;
-    margin-right: 50px;
-    padding-right: 50px;
-    border-right:  2px solid gray;
+.edu_f8{
+    margin-bottom: 10px;
+    display: flex;
+    
 }
+
+.edu_university{
+    margin-bottom: 10px;
+    display: flex;
+    
+}
+.edu_codelearn{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.edu_f8_frontend{
+    text-align: left;
+}
+.time{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-right: 80px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.time_f8{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-right: 55px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
 
 
 
@@ -257,18 +295,18 @@ body{
 /*Product*/
 .product{
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .product_items{
     text-align: left;
     padding-left: 40px;
     list-style-position: inside ;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .product_title{
 padding-left: 40px;
-padding-bottom: 10px;
+
 }
 
 .product_calc {
@@ -294,7 +332,7 @@ padding-bottom: 10px;
 }
 
 .exp_items{
-    margin-top: 10px;
+   padding-bottom: 10px;
     padding-left: 30px;
     text-align: center;
     line-height: 1.5;
@@ -302,32 +340,40 @@ padding-bottom: 10px;
 .exp_title{
     text-align: left;
     margin-left: 50px;
-    padding-bottom: 10px;
+    
 }
 
 .exp_content{
     display: flex;
+    margin-left: 10px;
 }
 .exp_ck, .exp_hutong {
     display: flex;
-}
+}    
 .exp_ck_time{
-    margin-right: 50px;
-    padding-top: 10px;
-    border-right: 2px solid gray;
+    margin-right: 30px;
+   margin-top: 20px;
+    font-size: 17px;
     padding-right: 35px;
+    margin-left: 10px;
+    font-weight: 600;
 }
 .exp_hutong_time{
-    margin-right: 50px;
-    padding-top: 10px;
-    border-right: 2px solid gray;
+    margin-right: 30px;
+    padding-top: 20px;
+    font-weight: 600;
     padding-right: 26px;
+    margin-left: 10px;
+    font-size: 17px;
 }
+
 .exp_ck_text{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 10px;
+    font-size: 17px;
+    padding-top: 10px;
     
    
 }
@@ -336,4 +382,6 @@ padding-bottom: 10px;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 5px;
+    font-size: 17px;
+    padding-top: 10px;
 }
